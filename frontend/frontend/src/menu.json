@@ -1,0 +1,192 @@
+[
+    {
+      "ID": 18,
+      "Subcategory": "Popular Dish",
+      "Item Name": "Butter Chicken",
+      "Price (£)": 12.0,
+      "Allergy Info": "Dairy, Nuts",
+      "Spice Level (1-5)": 3,
+      "Calories (per serving)": 400,
+      "Description": "Creamy chicken curry with rich tomato gravy, a popular dish in Indian cuisine"
+    },
+    {
+      "ID": 2,
+      "Subcategory": "Popular Dish",
+      "Item Name": "Chicken Tikka Masala",
+      "Price (£)": 10.5,
+      "Allergy Info": "Dairy, Nuts",
+      "Spice Level (1-5)": 3,
+      "Calories (per serving)": 450,
+      "Description": "Grilled chicken in a spiced tomato and cream sauce"
+    },
+    {
+      "ID": 3,
+      "Subcategory": "Chef Special",
+      "Item Name": "Lamb Rogan Josh",
+      "Price (£)": 13.0,
+      "Allergy Info": "None",
+      "Spice Level (1-5)": 4,
+      "Calories (per serving)": 500,
+      "Description": "Tender lamb cooked in aromatic spices and tomato-based gravy"
+    },
+    {
+      "ID": 5,
+      "Subcategory": "Vegetarian Dish",
+      "Item Name": "Paneer Butter Masala",
+      "Price (£)": 9.5,
+      "Allergy Info": "Dairy",
+      "Spice Level (1-5)": 2,
+      "Calories (per serving)": 350,
+      "Description": "Cottage cheese cooked in rich tomato gravy with butter"
+    },
+    {
+      "ID": 6,
+      "Subcategory": "Side Dish",
+      "Item Name": "Aloo Gobi",
+      "Price (£)": 7.5,
+      "Allergy Info": "None",
+      "Spice Level (1-5)": 2,
+      "Calories (per serving)": 250,
+      "Description": "A dry vegetarian dish made with potatoes and cauliflower"
+    },
+    {
+      "ID": 7,
+      "Subcategory": "Side Dish",
+      "Item Name": "Saag Aloo",
+      "Price (£)": 7.0,
+      "Allergy Info": "None",
+      "Spice Level (1-5)": 1,
+      "Calories (per serving)": 200,
+      "Description": "Spinach and potatoes cooked with mild spices"
+    },
+    {
+      "ID": 8,
+      "Subcategory": "Rice",
+      "Item Name": "Pilau Rice",
+      "Price (£)": 3.5,
+      "Allergy Info": "None",
+      "Spice Level (1-5)": 1,
+      "Calories (per serving)": 200,
+      "Description": "Aromatic rice cooked with a mix of spices"
+    },
+    {
+      "ID": 9,
+      "Subcategory": "Rice",
+      "Item Name": "Biryani",
+      "Price (£)": 8.0,
+      "Allergy Info": "None",
+      "Spice Level (1-5)": 4,
+      "Calories (per serving)": 550,
+      "Description": "A flavorful rice dish with mixed spices and meat"
+    },
+    {
+      "ID": 10,
+      "Subcategory": "Bread",
+      "Item Name": "Naan",
+      "Price (£)": 2.5,
+      "Allergy Info": "Wheat, Dairy",
+      "Spice Level (1-5)": 1,
+      "Calories (per serving)": 150,
+      "Description": "Soft, fluffy bread, perfect for dipping in curries"
+    },
+    {
+      "ID": 11,
+      "Subcategory": "Bread",
+      "Item Name": "Garlic Naan",
+      "Price (£)": 3.0,
+      "Allergy Info": "Wheat, Dairy",
+      "Spice Level (1-5)": 1,
+      "Calories (per serving)": 200,
+      "Description": "Naan bread topped with garlic and herbs"
+    },
+    {
+      "ID": 12,
+      "Subcategory": "Drinks",
+      "Item Name": "Mango Lassi",
+      "Price (£)": 3.5,
+      "Allergy Info": "Dairy",
+      "Spice Level (1-5)": 1,
+      "Calories (per serving)": 250,
+      "Description": "A sweet yogurt-based drink made with mango"
+    },
+    {
+      "ID": 13,
+      "Subcategory": "Drinks",
+      "Item Name": "Masala Chai",
+      "Price (£)": 2.0,
+      "Allergy Info": "None",
+      "Spice Level (1-5)": 2,
+      "Calories (per serving)": 150,
+      "Description": "Traditional spiced tea made with milk, sugar, and various spices"
+    },
+    {
+      "ID": 14,
+      "Subcategory": "Traditional Dishes",
+      "Item Name": "Fish Curry",
+      "Price (£)": 12.5,
+      "Allergy Info": "Fish",
+      "Spice Level (1-5)": 4,
+      "Calories (per serving)": 400,
+      "Description": "Fresh fish cooked in a rich, spicy curry"
+    },
+    {
+      "ID": 15,
+      "Subcategory": "Traditional Dishes",
+      "Item Name": "Dal Tadka",
+      "Price (£)": 8.0,
+      "Allergy Info": "None",
+      "Spice Level (1-5)": 3,
+      "Calories (per serving)": 350,
+      "Description": "Lentils cooked with spices and tempered with ghee"
+    },
+    {
+      "ID": 16,
+      "Subcategory": "Chef Special",
+      "Item Name": "Goan Fish Curry",
+      "Price (£)": 13.0,
+      "Allergy Info": "Fish",
+      "Spice Level (1-5)": 4,
+      "Calories (per serving)": 450,
+      "Description": "Fish cooked in a tangy and spicy coconut-based gravy"
+    },
+    {
+      "ID": 17,
+      "Subcategory": "Chef Special",
+      "Item Name": "Hyderabadi Biryani",
+      "Price (£)": 9.5,
+      "Allergy Info": "None",
+      "Spice Level (1-5)": 4,
+      "Calories (per serving)": 600,
+      "Description": "Aromatic rice dish with layers of marinated meat and spices"
+    },
+    {
+      "ID": 18,
+      "Subcategory": "Chef Special",
+      "Item Name": "Test",
+      "Price (£)": 13.0,
+      "Allergy Info": "None",
+      "Spice Level (1-5)": 4,
+      "Calories (per serving)": 500,
+      "Description": "Tender lamb cooked in aromatic spices and tomato-based gravy"
+    },
+    {
+      "ID": 19,
+      "Subcategory": "Chef Special",
+      "Item Name": "Test2",
+      "Price (£)": 13.0,
+      "Allergy Info": "None",
+      "Spice Level (1-5)": 4,
+      "Calories (per serving)": 500,
+      "Description": "Tender lamb cooked in aromatic spices and tomato-based gravy"
+    },{
+      "ID": 20,
+      "Subcategory": "Chef Special",
+      "Item Name": "Test3",
+      "Price (£)": 13.0,
+      "Allergy Info": "None",
+      "Spice Level (1-5)": 4,
+      "Calories (per serving)": 500,
+      "Description": "Tender lamb cooked in aromatic spices and tomato-based gravy"
+    }
+  ]
+  

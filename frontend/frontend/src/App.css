@@ -1,0 +1,780 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Header Styles */
+.App-header {
+  position: relative;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.App-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.App-header p {
+  color: #61dafb;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+/*Logout Container*/
+.logout-container{
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Logout Button */
+.logout-button {
+  padding: 10px 20px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #e63946;
+}
+
+.logout-button:focus {
+  outline: none;
+}
+
+/* Main Container for Layout */
+.menu-page-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr; /* 4 columns: Categories, Items, Empty, Cart */
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Categories Section */
+.categories-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category-button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.category-button:hover {
+  background-color: #00408d;
+}
+
+/* Items Section */
+.items-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+  gap: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.item-button-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.item-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.item-button:hover {
+  background-color: #45a049;
+}
+
+/* Empty Column */
+.empty-column {
+ min-width: 100px;
+ background-color: transparent;
+}
+
+/* Cart Section */
+.cart-column {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Cart Items */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.cart-item span {
+  font-weight: bold;
+  margin: 0 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Cart Item Buttons */
+.cart-item button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  margin: 0 5px;
+}
+
+.cart-item .minus {
+  background-color: #f44336;
+}
+
+.cart-item .plus {
+  background-color: #4CAF50;
+}
+
+.cart-item button:hover {
+  background-color: #00408d;
+}
+
+.cart-item .minus:hover {
+  background-color: #e53935;
+}
+
+.cart-item .plus:hover {
+  background-color: #45a049;
+}
+
+/* Cart Actions */
+.cart button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.cart button:hover {
+  background-color: #0056b3;
+}
+
+/* Form Container */
+.form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 20px;
+}
+
+/* Form Heading */
+h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Input Group */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #00408d;
+}
+
+p {
+  text-align: center;
+  color: green;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.print-label {
+  background-color: #0056b3;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto; /* Make the width auto to match the button size */
+  margin-top: 20px;
+  font-size: 16px;
+  display: inline-block; /* Align with other buttons */
+  text-align: center; /* Center the text inside */
+}
+
+.print-label:hover {
+  background-color: #00408d;
+}
+
+.print-label:focus {
+  outline: none; /* Ensure no outline when focused */
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .App-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .menu-page-container {
+    grid-template-columns: 1fr; /* Stack columns on mobile */
+  }
+
+  .items-grid {
+    grid-template-columns: 1fr; /* 1 item per row on mobile */
+  }
+
+  .form-container {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-button {
+    width: 100%;
+  }
+
+  .category-container,
+  .items-container,
+  .cart {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .category-button,
+  .item-button {
+    width: 100%;
+  }
+}
+
+/* Message Display */
+.message {
+  text-align: center;
+  font-size: 16px;
+  color: #f44336;
+  margin-top: 20px;
+}
+
+.message.success {
+  color: green;
+}
+
+.message.error {
+  color: red;
+}
+
+/* Lowest bidder badge */
+.lowest-bidder-badge {
+  background-color: #ffd700;
+  color: #000;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-left: 8px;
+  display: inline-block;
+}
+
+/* Selected supplier badge */
+.selected-supplier-badge {
+  background-color: #4CAF50;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-left: 8px;
+  display: inline-block;
+}
+
+/* Action buttons in orders table */
+.edit-order-btn, .accept-bid-btn {
+  margin: 3px;
+  display: inline-block;
+  width: 75px;
+  padding: 5px 5px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.edit-order-btn {
+  background-color: #0056b3;
+  color: white;
+}
+
+.edit-order-btn:hover {
+  background-color: #004494;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .action-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+/* Accept bid button */
+.accept-bid-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.accept-bid-btn:hover {
+  background-color: #45a049;
+}
+
+/* Notifications */
+.notifications-container {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  padding: 15px;
+  width: 100%;
+}
+
+.notifications-container h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.notifications-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.notification-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-item.unread {
+  background-color: #f0f7ff;
+}
+
+.notification-content p {
+  margin: 0 0 5px 0;
+  color: #333;
+  font-size: 14px;
+}
+
+.notification-time {
+  color: #888;
+  font-size: 12px;
+}
+
+.view-all-container {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.view-all-link {
+  color: #0056b3;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.view-all-link:hover {
+  text-decoration: underline;
+}
+
+/* Notifications Page */
+.notifications-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.notifications-list-container {
+  margin-top: 20px;
+}
+
+.notification-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.notification-card.unread {
+  background-color: #f0f7ff;
+  border-left: 4px solid #007bff;
+}
+
+.notification-content {
+  flex: 1;
+}
+
+.notification-message {
+  color: #333;
+  font-size: 15px;
+  margin: 0 0 8px 0;
+}
+
+.notification-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #777;
+}
+
+.notification-time {
+  color: #888;
+}
+
+.notification-status {
+  padding: 2px 6px;
+  border-radius: 12px;
+  font-size: 11px;
+  background-color: #eee;
+}
+
+.notification-card.unread .notification-status {
+  background-color: #e6f0ff;
+  color: #0066cc;
+}
+
+.notification-actions {
+  margin-left: 16px;
+}
+
+.mark-read-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.mark-read-btn:hover {
+  background-color: #0069d9;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination-button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination-button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.pagination-button:disabled {
+  background-color: #e9ecef;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+/* Simple Notifications Page */
+.notifications-container-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.notifications-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.notifications-header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.mark-all-read {
+  background-color: transparent;
+  color: #0066cc;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mark-all-read:hover {
+  color: #004499;
+}
+
+.notifications-count {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.unread-count {
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.all-read {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 30px 0;
+  color: #666;
+}
+
+.empty-state p {
+  margin-bottom: 15px;
+}
+
+.back-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.simple-notifications-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.notification-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-item.unread {
+  background-color: #f0f7ff;
+}
+
+.notification-item:hover {
+  background-color: #f0f0f0;
+}
+
+.notification-item.unread:hover {
+  background-color: #e6f0ff;
+}
+
+.notification-info {
+  flex: 1;
+}
+
+.notification-text {
+  margin: 0 0 5px 0;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.notification-time {
+  color: #888;
+  font-size: 12px;
+}
+
+.unread-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #0066cc;
+  margin-left: 10px;
+}
+
+.simple-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.page-btn {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.page-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.page-info {
+  color: #666;
+  font-size: 14px;
+}
