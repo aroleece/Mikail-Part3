@@ -20,15 +20,15 @@ Users can also print food labels showing allergen information, calorie count, sp
 
 ### 1. Clone the Project Repository
 
-Clone your project from GitHub:
+Please Clone the project from GitHub:
 
 git clone https://github.com/aroleece/Mikail-Part3
 
 ### 2. Backend Setup (Django API Server)
 
-Navigate into your project folder:
+Navigate into my project folder:
 
-cd path/to/your/project
+cd path/to/my/project
 
 Create and activate a virtual environment:
 
@@ -119,6 +119,8 @@ Backend Core Components:
 - Mobile app version using React Native
 - Advanced supplier analytics dashboard
 - Multi-language internationalization
+- Address Lookup
+- Secondary bidding for unavailable items from supplier side
 
 ## Security Measures
 
